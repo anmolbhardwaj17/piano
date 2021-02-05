@@ -5,4 +5,4 @@ One day project to refine JS skills.
 
 Used audiosynth.js to create sounds.
 
-![Image of a piano](piano.png)
+![Image of a piano](piano.PNG)
