@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  height:100vh;
+  text-align: center;
+  font-family:'Roboto';
+  position:relative;
+}
+.piano{
+  width:100%;
+}
+
+.wrapper{
+  margin:0 auto;
+}
+#heading{
+  font-size:64px;
+  font-weight:100;
+  margin-top:24px;
+}
+#explain{
+  padding-top:24px;
+  font-weight:100;
+  font-size:24px;
+}
+
+.base{
+  position:relative;
+  margin: 80px 22%;
+}
+
+.bottom{
+  position:absolute;
+  top:0px;
+}
+
+.bottom-one{
+  display:flex;
+
+}
+
+.white{
+  width:80px;
+  height:80px;
+  background-color:rgb(255, 255, 255);
+  color:black;
+  text-align:center;
+  padding-top:200px;
+  margin-right:2px;
+  margin-left:2px;
+  display:flex;
+  justify-content: center;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+  font-size:20px;
+  cursor:pointer;
+}
+
+.white:active{  
+  transition: 0.2s;
+  background-color:rgb(204, 204, 204);
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
+}
+
+.white-active{  
+  transition: 0.2s;
+  background-color:rgb(204, 204, 204);
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
+}
+
+.black{
+  width:40px;
+  height:50px;
+  background-color:rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
+  text-align:center;
+  padding-top:100px;
+  padding-right:1px;
+  padding-left:1px;
+  margin-right:21px;
+  margin-left:21px;
+  display:flex;
+  justify-content: center;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+  font-size:16px;
+  cursor:pointer;
+}
+
+.black:active{  
+  transition: 0.2s;
+  background-color:rgb(85, 85, 85);
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
+}
+.black-active{  
+  transition: 0.2s;
+  background-color:rgb(85, 85, 85);
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
+}
+
+.top{
+  position: absolute;
+  top:0px;  
+}
+
+.top-one{
+  display:flex;
+  margin-left:42px;
+  margin-right:42px;
+}
+
+#none{
+  opacity:0;
+  cursor: default;
+}
+
+.footer{
+  position:absolute;
+  width:100%;
+  bottom:0px;
+  padding-bottom: 12px;
+  background-color:black;
+}
+
+.footer a{
+  color:white;
+  text-decoration:none;
+  cursor: pointer;
+}
+
+#info{
+  background-color:white;
+  padding:8px 0;
+}
+
+@media(max-width:455px){
+  body{
+    transform: rotateZ(90deg);
+  }
+}
